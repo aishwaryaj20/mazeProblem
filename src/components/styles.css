@@ -1,0 +1,46 @@
+.maze {
+    width: 140px;
+    margin: auto;
+  }
+  
+ .head{
+  margin-left: 46%;
+ }
+  .rect {
+    width: 20px;
+    height: 20px;
+    border: 0.5px solid blue;
+    display: inline-block;
+    margin: 2px;
+  }
+  
+  div.rect:nth-child(1) {
+    background: rgb(247, 113, 3);
+  }
+
+  div.rect:nth-child(20) {
+    background: rgb(9, 255, 0);
+  }
+
+  .blocker {
+    background-color: rgb(153, 153, 155);
+  }
+  
+  .blockerCell {
+    background-color: rgb(153, 153, 155);
+  }
+  .start-btn {
+    background: rgb(12, 201, 122);
+    display: inline-block;
+    padding: 0.5rem 1.82rem;
+    margin-left: 45%;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+    text-align: center;
+  }
+  
+  h3.prob {
+    text-align: center;
+  }
